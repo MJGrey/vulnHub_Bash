@@ -1,0 +1,125 @@
+!#/bin/bash
+
+#This is an automated script to create desktop folders and download vulnhub vms 
+#for pentesting.
+
+echo "Creating Desktop Folders"
+
+cd ~/Desktop
+
+mkdir vuln_Hub
+
+cd vuln_Hub
+
+mkdir beginner
+mkdir intermediate
+mkdir random
+mkdir difficult
+
+cd ~/Desktop/vuln_Hub/beginner
+
+mkdir kioptrix
+mkdir fristi_Leaks
+mkdir stapler
+mkdir pwn_Labs_init
+mkdir necromancer
+mkdir bWAPP_BeeBox
+mkdir oWASP_BWAP
+
+cd ~/Desktop/vuln_Hub/intermediate
+
+
+mkdir kioptrix_2014
+mkdir brainpan
+mkdir mr_Robot_1
+mkdir vulnix
+
+
+cd ~/Desktop/vuln_Hub/difficult
+
+mkdir moria
+
+
+cd ~/Desktop/vuln_Hub/random
+
+mkdir vulnOS_2
+mkdir sickOS_1.2
+mkdir scream
+mkdir pWnOS_2.0
+mkdir skyTower_1
+mkdir skyDog_2016
+mkdir imf
+mkdir lab26
+mkdir proteus
+
+cd ..
+
+
+echo "--------------------------------------" 
+echo "!! Downloading Beginner VulnBoxes !! |"
+echo "--------------------------------------"
+
+wget -P ~/Desktop/vuln_Hub/beginner/kioptrix https://download.vulnhub.com/kioptrix/Kioptrix_Level_1.rar
+
+wget -P ~/Desktop/vuln_Hub/beginner/kioptrix https://download.vulnhub.com/kioptrix/Kioptrix_Level_2-update.rar
+
+wget -P ~/Desktop/vuln_Hub/beginner/kioptrix https://download.vulnhub.com/kioptrix/KVM3.rar
+
+wget -P ~/Desktop/vuln_Hub/beginner/kioptrix https://download.vulnhub.com/kioptrix/Kioptrix4_Hyper_v.rar
+
+wget -P ~/Desktop/vuln_Hub/beginner/fristi_Leaks https://download.vulnhub.com/fristileaks/FristiLeaks_1.3.ova
+
+wget -P ~/Desktop/vuln_Hub/beginner/stapler https://download.vulnhub.com/stapler/Stapler.zip
+
+wget -P ~/Desktop/vuln_Hub/beginner/pwn_Labs_init https://download.vulnhub.com/pwnlab/pwnlab_init.ova 
+
+wget -P ~/Desktop/vuln_Hub/beginner/necromancer https://download.vulnhub.com/necromancer/necromancer.ova
+
+wget -P ~/Desktop/vuln_Hub/beginner/bWAPP_BeeBox https://download.vulnhub.com/bwapp/bee-box_v1.6.7z
+
+wget -P ~/Desktop/vuln_Hub/beginner/oWASP_BWAP https://download.vulnhub.com/owaspbwa/OWASP_Broken_Web_Apps_VM_1.2.7z
+
+echo "------------------------------------------" 
+echo "!! Downloading Intermediate VulnBoxes !! |"
+echo "------------------------------------------"
+
+
+#wget -P ~/Desktop/vuln_Hub/intermediate/kioptrix_2014 https://download.vulnhub.com/kioptrix/kiop2014.tar.bz2
+
+#wget -P ~/Desktop/vuln_Hub/intermediate/brainpan https://download.vulnhub.com/brainpan/Brainpan.zip
+
+wget -P ~/Desktop/vuln_Hub/intermediate/mr_Robot_1 https://download.vulnhub.com/mrrobot/mrRobot.ova
+
+#wget -P ~/Desktop/vuln_Hub/intermediate/vulnix https://download.vulnhub.com/hacklab/Vulnix.7z
+
+
+echo "-----------------------------------" 
+echo "!! Downloading Random VulnBoxes!! |"
+echo "-----------------------------------"
+
+#wget -P ~/Desktop/vuln_Hub/random/vulnOS_2.0 https://download.vulnhub.com/vulnos/VulnOSv2.7z
+
+#wget -P ~/Desktop/vuln_Hub/random/sickOS_1.2 https://download.vulnhub.com/sickos/sick0s1.2.zip
+
+#wget -P ~/Desktop/vuln_Hub/random/scream https://download.vulnhub.com/devrandom/scream.exe
+
+#wget -P ~/Desktop/vuln_Hub/random/pWnOS_2.0 https://download.vulnhub.com/pwnos/pWnOS_v2.0.7z
+
+#wget -P ~/Desktop/vuln_Hub/random/skyTower_1 https://download.vulnhub.com/skytower/SkyTower.zip
+
+#wget -P ~/Desktop/vuln_Hub/random/imf https://download.vulnhub.com/imf/IMF.ova
+
+#wget -P ~/Desktop/vuln_Hub/random/lab26 https://download.vulnhub.com/lab26/Lab26.ova
+ 
+#wget -P ~/Desktop/vuln_Hub/random/proteus https://download.vulnhub.com/proteus/Proteus.ova
+
+#wget -P ~/Desktop/vuln_Hub/random/skyDog_2016 https://download.vulnhub.com/skydog/SkyDogConCTF2016VBoxV10.ova
+
+
+
+echo "---------------------------------------" 
+echo "!! Downloading Difficult VulnBoxes !! |"
+echo "---------------------------------------"
+
+#wget -P ~/Desktop/vuln_Hub/random/difficult/moria https://download.vulnhub.com/moria/Moria1.1.rar
+
